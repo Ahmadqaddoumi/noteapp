@@ -81,7 +81,7 @@ class _LoginState extends State<Login> {
                         ),
                         CustomtextfieldSign(
                           valid: (value) {
-                            return valiInput(value!, 3, 20);
+                            return valiInput(value!, 3, 30);
                           },
                           hinttext: "email",
                           mycontroller: emailcontroller,
@@ -127,7 +127,7 @@ class _LoginState extends State<Login> {
                         ),
                       ],
                     ),
-                  ),
+                  ), 
                 ],
               ),
       ),

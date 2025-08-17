@@ -132,7 +132,7 @@ class _AddNotesState extends State<AddNotes> {
                       hinttext: "content",
                       mycontroller: contentController,
                       valid: (value) {
-                        return valiInput(value!, 5, 30);
+                        return valiInput(value!, 5, 100);
                       },
                     ),
                     Padding(
