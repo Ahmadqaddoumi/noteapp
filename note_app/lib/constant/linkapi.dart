@@ -1,5 +1,5 @@
-const String linkServerName = "http://192.168.100.17/notesApp";
-const String linkImageRoot = "http://192.168.100.17/notesApp/upload";
+const String linkServerName = //  انا مو كاتبهم للحماية 
+const String linkImageRoot = // انا مو كاتبهم للحماية لكنهم بالاصل موجودات في الكود عندي
 // Auth
 const String linkSignUp = "$linkServerName/auth/signup.php";
 const String linkLogin = "$linkServerName/auth/login.php";
